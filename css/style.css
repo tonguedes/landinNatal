@@ -1,0 +1,637 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Montserrat Regular'), local('Montserrat-Regular'),
+		url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap') format('woff2');
+	font-display: swap;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+.nav-item{
+	margin-right: 30px;
+}
+input{
+	border-radius: 20px !important;
+}
+label{
+	color:#4d4b4b
+}
+body {
+	background: #FFF;
+}
+
+#fixo {
+	position: absolute;
+}
+
+.navbar {
+	background-color: gray;
+	opacity: 0.8
+}
+
+#botaoimg{
+	position: absolute;
+	bottom: 6%;
+	margin-left: 42%;
+	height: 40px;
+
+}
+.card-blog{
+	display: flex;
+	justify-content: space-around;
+}
+.card-title{
+	font-size:23px
+}
+#menu2 {
+	opacity: 0.9.5;
+	height: 41px;
+}
+
+.navbar h4 {
+	color: #FFF;
+	font-size: 15px;
+	text-align: center;
+	padding: 1em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
+
+.carousel-caption h2 {
+	color: #891819;
+	text-shadow: 1px 1px 1px rgb(146, 86, 86);
+	font-weight: 500;
+	margin-left: 500px;
+	font-size: 23px;
+}
+
+.carousel-caption p {
+	color: #FFF;
+	text-shadow: 1px 1px 2px black;
+	font-size: large !important;
+	margin-left: 450px !important;
+}
+
+.carousel-caption p a {
+	color: #FFF;
+}
+
+#portifolio h1 span {
+	color: gold !important;
+	font-size: 60px !important;
+	font-weight: 500;
+}
+
+.card-body h3 span {
+	color: gold;
+	font-size: 30px;
+}
+
+#services .card-body h1 {
+	font-size: 61px;
+	color: #FFF;
+}
+
+#services .card-body h1 span {
+	color: gold;
+}
+
+#services .card-body p {
+	font-size: 20px;
+	color: #FFF;
+}
+
+
+#WhatsMobile button {
+	background-color: green;
+	border-radius: 10px;
+
+}
+
+.btn a {
+	color: white
+}
+
+.fixed {
+	display: block;
+	position: fixed;
+	z-index: 9;
+	background-color: gray;
+	opacity: 1;
+}
+
+
+.section-padding {
+	padding: 30px 0;
+}
+
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+	object-fit: cover;
+}
+
+h5 {
+	padding-left: 50px;
+}
+
+.carousel-caption {
+	bottom: 210px;
+	z-index: 2;
+	float: right;
+	margin-bottom: auto;
+
+}
+
+.carousel-caption h5 {
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 15px;
+	line-height: 1.9;
+}
+
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.1);
+	z-index: 1;
+}
+
+.navbar .getstarted {
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: rd;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+#navbarSupportedContent {
+	margin-right: 50px;
+}
+
+.container #navbarSupportedContent ul li a {
+	color: #fff;
+}
+
+.container #navbarSupportedContent ul li a:hover {
+	color: #D3242C;
+	font-weight: bold;
+}
+
+
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+	color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+
+.w-100 {
+	height: 100vh;
+}
+
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+}
+
+.portfolio .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.team .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.services .card-body i {
+	font-size: 50px;
+}
+
+.services iframe {
+	margin-bottom: 50px;
+	
+}
+
+.team .card-body i {
+	font-size: 20px;
+}
+
+#about .container {
+	height: 430px;
+	margin-bottom: 2%;
+}
+
+.container iframe {
+	height: 371px;
+	border-radius: 13px;
+	margin-top: 45PX;
+}
+
+.about-text {
+	margin-top: 100px;
+}
+
+
+
+footer .container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	text-align: center;
+}
+
+footer p {
+	margin-top: 8px;
+	text-align: center;
+}
+
+footer .container a {
+	font-size: 35px;
+	color: white;
+
+}
+
+footer ul {
+	display: flex;
+	gap: 9px;
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+
+footer .bi-facebook:hover {
+	color: rgb(77, 176, 209);
+	font-weight: bold;
+}
+
+footer .bi-instagram:hover {
+	color: rgb(212, 49, 212);
+	font-weight: bold;
+}
+
+footer .bi-whatsapp:hover {
+	color: rgb(49, 212, 84);
+	font-weight: bold;
+}
+
+ .about-text button:hover {
+	transform: scale(1.1);
+	transition: all 0.5s;
+}
+
+.whatsbutton a img:hover {
+	transform: scale(1.2);
+	transition: all 0.5s;
+}
+
+.whatsbutton a img {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+	border-radius: 30px;
+
+}
+
+.whatsapp-icon.svg {
+	font-size: 15px;
+}
+
+#robbu-whatsapp-button:hover {
+	transform: scale(1.1);
+	transition: all 0.5s;
+}
+
+.whatsbutton a img {
+	margin-top: 10px;
+}
+
+.card-body img {
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+#portifolio img:hover {
+	-webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+	filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+/*Responsividade da pagina*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#navbarSupportedContent ul {
+		display: flex !important;
+	}
+
+	.carousel-caption {
+		bottom: 370px;
+	}
+
+	.carousel-caption p {
+		width: 100%;
+	}
+
+	.card {
+		margin-bottom: 30px;
+	}
+
+	.img-area img {
+		width: 100%;
+	}
+
+	.container iframe {
+		height: 75%;
+		width: 100%;
+	}
+
+	#about .container {
+		height: 630px;
+	}
+	.about-text{
+		margin-bottom: 30px;
+		margin: 0 auto;
+	}
+
+	#about{
+		margin-bottom: 50px;
+	}
+	#about iframe{
+		margin:  auto;
+		margin-top: 5px;
+	}
+
+	.carousel-img {
+		width: 50px;
+		height: 50px;
+		background-size: cover;
+
+	}
+
+	#carouselExampleIndicators {
+		display: none;
+	}
+
+	#carouselExampleSlidesOnly {
+		display: inline !important;
+	}
+
+	.carousel-item {
+		height: auto;
+		min-height: 300px;
+		object-fit: cover;
+	}
+
+	a img {
+		width: 50px;
+		margin-left: 10px;
+		margin-top: 30px;
+	}
+
+	#services iframe {
+		width: 680px;
+	}
+
+	#menu2 h4 {
+		opacity: none;
+		font-size: 15px;
+		margin-top: 1px;
+	}
+
+	#navbarSupportedContent {
+
+		margin-left: 60px;
+	}
+	#sonoDesktop button{
+		display: none;
+	}
+	#botaoimg{
+	  display: none;
+	}
+
+	#soDesktop{
+	   display: none;
+	}
+	 .card-title{
+		margin-top: 50px;
+	 }
+    
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+
+	.carousel-caption {
+		bottom: 125px;
+	}
+
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+
+	.about-text {
+		padding-top: 10px;
+	}
+
+	.card {
+		margin-bottom: 33px;
+	}
+
+	.container iframe {
+		height: 80%;
+		
+
+	}
+
+	#about .container {
+		height: 550px;
+		margin-bottom: 80px;
+	}
+
+	#about {
+		margin-bottom: 120px;
+	}
+    .about-text{
+		margin-bottom: 50px;
+		
+	}
+	#about iframe{
+		height: 100%;
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 14%;
+		
+	}
+
+	nav .navbar-toggler {
+		margin-right: 10px;
+
+	}
+
+	.carousel-item {
+		height: auto;
+		min-height: auto;
+		object-fit: cover;
+	}
+
+	.carousel-item img {
+
+		object-fit: fit;
+
+	}
+
+	#carouselExampleIndicators {
+		display: none;
+	}
+
+	#carouselExampleSlidesOnly {
+		display: inline !important;
+	}
+
+	footer .container a {
+		font-size: 16px !important;
+		gap: 8px;
+	}
+
+	#services iframe {
+		width: 97%;
+			
+	}
+	#services .card-body h1{
+		font-size: 45px;
+	}
+
+	hr {
+		display: none;
+	}
+
+	.navbar li button {
+		display: none;
+	}
+
+	.whatsbutton a img {
+		width: 45px;
+		margin-top: 30px;
+		margin-left: 17px;
+	}
+
+	br {
+		display: none;
+	}
+
+	#menu2 h4 {
+		opacity: none;
+
+		font-size: 10px;
+		margin-top: 1px;
+	}
+
+	#menu2 {
+		height: 41px;
+	}
+
+	#navbarSupportedContent {
+
+		margin-right: 220px;
+	}
+
+	.card-blog{
+		display: block;
+	}
+   
+     #sonoDesktop button{
+         display: none;
+	 }
+	 #botaoimg{
+     display: none;
+	   
+	 }
+
+	 #soDesktop{
+		display: none;
+	 }
+
+	 .ratio{
+		--bs-aspect-ratio:50%;
+	 }
+
+	 #portifolio h1{
+		font-size: 35px !important;
+	 }
+
+
+	form{
+		margin-top: 20px;
+	}
+
+	#about h1{
+		margin-bottom: 30px;
+	}
+	
+	.section-header{
+		margin-bottom: 8%;
+	}
+}
+
+
